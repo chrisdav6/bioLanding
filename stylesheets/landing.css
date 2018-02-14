@@ -1,27 +1,3 @@
-/* Sticky footer styles-------------------------------------------------- */
-html {
-  position: relative;
-  min-height: 100%; }
-
-body {
-  margin-bottom: 198px;
-  /* Margin bottom by footer height */ }
-  @media (min-width: 768px) {
-    body {
-      margin-bottom: 138px; } }
-
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  line-height: 30px;
-  /* Vertically center the text there */
-  background-color: #255182; }
-
-/* End Sticky footer styles-------------------------------------------------- */
-#intro {
-  background: #255182; }
-
 @media (min-width: 576px) {
   #product p {
     font-size: 1.25em; } }
@@ -31,10 +7,7 @@ body {
   margin-top: 15px;
   width: 302px; }
 
-.footer p {
-  font-size: .8em; }
-  @media (min-width: 576px) {
-    .footer p {
-      font-size: 1em; } }
+.footer {
+  background-color: #255182; }
 
 /*# sourceMappingURL=landing.css.map */
