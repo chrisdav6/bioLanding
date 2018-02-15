@@ -73,33 +73,29 @@
    
 
       <!-- Form Section -->
-      <section id="form" class="pt-3">
+      <section id="form" class="pt-4 pb-5">
         <div class="container">
-          <form action="https://list.robly.com/subscribe/post" method="post" id="robly_embedded_subscribe_form" name="robly_embedded_subscribe_form" class="validate" target="_blank"  novalidate="">
-            <input type="hidden" name="a" value="d385f0c660467c5dce0c5035cfc9d67d" />
-            <input type="hidden" name="sub_lists[]" value="293912" />
+          <div class="row">
 
-            <div class="row">
-
-              <div class="col-lg-3 mb-3 mb-lg-0">
-                <input type="text" name="FNAME" id="DATA1" class="form-control" value="" placeholder="First Name">
-              </div>
-
-              <div class="col-lg-3 mb-3 mb-lg-0">
-                <input type="text" name="LNAME" id="DATA2" class="form-control" value="" placeholder="Last Name">
-              </div>
-
-              <div class="col-lg-3 mb-3 mb-lg-0">
-                <input type="text" name="EMAIL" id="DATA0" class="required form-control" autocapitalize="off" autocorrect="off" value="" placeholder="Email">
-              </div>
-
-              <div class="col-lg-3 mb-5">
+            <div class="col-lg-6 mx-auto">
+              <form action="https://list.robly.com/subscribe/post" method="post" id="robly_embedded_subscribe_form" name="robly_embedded_subscribe_form" class="validate" target="_blank"  novalidate="">
+                <input type="hidden" name="a" value="d385f0c660467c5dce0c5035cfc9d67d" />
+                <input type="hidden" name="sub_lists[]" value="293912" />
+                
+                <div class="form-group">
+                  <input type="text" name="FNAME" id="DATA1" class="form-control" value="" placeholder="First Name">
+                </div>
+                <div class="form-group">
+                  <input type="text" name="LNAME" id="DATA2" class="form-control" value="" placeholder="Last Name">
+                </div>
+                <div class="form-group">
+                  <input type="text" name="EMAIL" id="DATA0" class="required form-control" autocapitalize="off" autocorrect="off" value="" placeholder="Email">
+                </div>
                 <input type="submit" value="Send Request" name="subscribe" id="robly_embedded_subscribe" class="button btn btn-success btn-block">
-              </div>
-
+              </form>
             </div>
 
-          </form>
+          </div>
         </div>
       </section>
 
