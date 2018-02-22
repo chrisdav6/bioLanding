@@ -83,142 +83,30 @@
 
               <!-- Begin Robly Signup Form -->
               <div id="robly_embed_signup">
-                <form action="https://list.robly.com/subscribe/post" method="post" id="robly_embedded_subscribe_form" name="robly_embedded_subscribe_form" class="validate" target="_blank"  novalidate="">
+                <form action="https://list.robly.com/subscribe/post" method="post" id="robly_embedded_subscribe_form" name="robly_embedded_subscribe_form" class="validate" novalidate="">
                   <input type="hidden" name="a" value="d385f0c660467c5dce0c5035cfc9d67d" />
                   
-                  <h2>Subscribe to our mailing list</h2>
-                              <div class="robly_field_group"><label>First Name:</label><input type="text" name="FNAME" id="DATA1" class="" value=""></div>
-                              <div class="clearfix"></div>
-                              <div class="robly_field_group"><label>Last Name:</label><input type="text" name="LNAME" id="DATA2" class="" value=""></div>
-                              <div class="clearfix"></div>
-                              <div class="robly_field_group"><label>Email Address:<span class="asterisk">*</span></label><input type="text" name="EMAIL" id="DATA0" class="required" autocapitalize="off" autocorrect="off" value=""></div>
-                      <div class="robly_field_group input_group"><label>Our Mailing Lists:<span class="asterisk">*</span></label><ul><li><input type="checkbox" class="sublist_fb_option" value="293912" name="sub_lists[]"><label>TEER24_WP</label></li></ul></div>
-                      <div class="clearfix"></div>
-                    <div class="clear">
-                      <input type="submit" value="Subscribe" name="subscribe" id="robly_embedded_subscribe" class="button"/>
-                    </div>
+                  <div class="form-group">
+                    <input type="text" name="FNAME" id="DATA1" class="form-control form-control-lg" value="" placeholder="First Name">
+                  </div>
+
+                  <div class="form-group">
+                    <input type="text" name="LNAME" id="DATA2" class="form-control form-control-lg" value="" placeholder="Last Name">
+                  </div>
+
+                  <div class="form-group">
+                    <input type="text" name="EMAIL" id="DATA0" class="required form-control form-control-lg" value="" placeholder="Email" autocapitalize="off" autocorrect="off" value="">
+                  </div>
+                  
+                  <input type="checkbox" checked="checked" class="sublist_fb_option" value="293912" name="sub_lists[]" hidden>
+
+                  <input type="submit" value="Send Request" name="subscribe" id="robly_embedded_subscribe" class="button btn btn-success btn-block btn-lg">
                 </form>
               </div>
-              <style type="text/css">
-                  #robly_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width: 400px; }
-                  #robly_embed_signup form {display:block; position:relative; text-align:left;}
-                  #robly_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.3em;}
-                  #robly_embed_signup input {border:1px solid #999; -webkit-appearance:none;}
-                  #robly_embed_signup input[type=checkbox]{-webkit-appearance:checkbox;}
-                  #robly_embed_signup input[type=radio]{-webkit-appearance:radio;}
-                  #robly_embed_signup input:focus {border-color:#333;}
-                  #robly_embed_signup .button {background-color: #aaa; border: 0 none; border-radius:4px; color: #FFFFFF; cursor: pointer; display: inline-block; font-size:15px; font-weight: bold; height: 32px; line-height: 32px; margin: 0 5px 10px 0; padding:0; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto;}
-                  #robly_embed_signup .button:hover {background-color:#777;}
-                  #robly_embed_signup .slim_button {background-color: #aaa; border: 0 none; border-radius:4px; color: #FFFFFF; cursor: pointer; display: inline-block; font-size:15px; font-weight: bold; height: 32px; line-height: 32px; margin: 0 5px 10px 0; padding:0 15px; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto;}
-                  #robly_embed_signup .slim_button:hover {background-color:#777;}
-                  #robly_embed_signup .small_meta {font-size: 11px;}
-                  #robly_embed_signup .nowrap {white-space:nowrap;}
-                  #robly_embed_signup .clear {clear:none; display:inline;visibility:visible;}
-                  #robly_embed_signup .robly_field_group {clear:left; position:relative; width:96%; padding-bottom:3%; min-height:50px;}
-                  #robly_embed_signup .size1of2 {clear:none; float:left; display:inline-block; width:46%; margin-right:4%;}
-                  #robly_embed_signup .size1of2 {margin-right:2%;}
-                  #robly_embed_signup .robly_field_group label {display:block; margin-bottom:3px; font-size: 1.0em; font-weight: 100; padding-bottom:1px;}
-                  #robly_embed_signup .robly_field_group input {display:block; width:100%; padding:8px 0; text-indent:2%;}
-                  #robly_embed_signup .robly_field_group select {display:inline-block; width:99%; padding:5px 0; margin-bottom:2px;}
-                  #robly_embed_signup .datefield, #robly_embed_signup .phonefield_us{padding:5px 0;}
-                  #robly_embed_signup .datefield input, #robly_embed_signup .phonefield_us input{display:inline; width:60px; margin:0 2px; letter-spacing:1px; text-align:left; padding:5px 0 2px 0;}
-                  #robly_embed_signup .phonefield_us .phonearea input, #robly_embed_signup .phonefield_us .phonedetail1 input{width:40px;}
-                  #robly_embed_signup .datefield .monthfield input, #robly_embed_signup .datefield .dayfield input{width:35px;}
-                  #robly_embed_signup .datefield label, #robly_embed_signup .phonefield_us label{display:none;}
-                  #robly_embed_signup .indicates-required {text-align:right; font-size:11px; margin-right:4%;}
-                  #robly_embed_signup .asterisk {color:#c60; font-size:150%;}
-                  #robly_embed_signup .robly_field_group .asterisk {position:relative;top:5px; left:2px;}
-                  #robly_embed_signup label {display:block; font-size:16px; padding-bottom:10px; font-weight:bold;}
-                  #robly_embed_signup input.email {display:block; padding:8px 0; margin:0 4% 10px 0; text-indent:5px; width:90%; min-width:130px;}
-                  #robly_embed_signup input.slim_email {display:inline-block; padding:8px 0; margin:0 4% 10px 0; text-indent:5px; width:60%;}
-                  #robly_embed_signup input.button {width:40%; margin:0 0 10px 0; min-width:90px;}
-                  #robly_embed_signup .robly_field_group.input_group ul {margin:0; padding:5px 0; list-style:none;}
-                  #robly_embed_signup .robly_field_group.input_group ul li {display:block; padding:3px 0; margin:0;}
-                  #robly_embed_signup .robly_field_group.input_group label {display:inline;}
-                  #robly_embed_signup .robly_field_group.input_group input {display:inline; width:auto; border:none;}
-                  #robly_embed_signup div#robly_responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%;margin: 0 5%; clear: both;}
-                  #robly_embed_signup div.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}
-                  #robly_embed_signup #robly_error_response {display:none;}
-                  #robly_embed_signup #robly_success_response {color:#529214; display:none;}
-                  #robly_embed_signup label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}
-                  #robly_embedded-subscribe {clear:both; width:auto; display:block; margin:1em 0 1em 5%;}
-                  #robly_embed_signup #num-subscribers {font-size:1.1em;}
-                  #robly_embed_signup #num-subscribers span {padding:.5em; border:1px solid #ccc; margin-right:.5em; font-weight:bold;}
-                  #robly_embed_signup .power {postion: relative; float: right; margin-right: 16px; height:32px;}
-                  #robly_embed_signup #slim_power {float:none;}
-                  #robly_embed_signup .power p {font-size:12px; margin:0px; font-weight:bold; line-height:32px; color:#666;}
-                  #robly_embed_signup .power p a {text-decoration:none; font-weight:bold; color:#333;}
-                  #robly_embed_signup .power p a:hover {text-decoration:none; color:#000;}
-                  @media (max-width: 600px) {
-                    .g-recaptcha {transform: scale(0.77); -webkit-transform:scale(0.77); transform-origin:0 0; -webkit-transform-origin:0 0; }
-                  }
-                  /* Add your own Robly form styles to your site stylesheet or in this style block.
-                     We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-              </style>
-              <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-              <script>
-
-                $(document).ready(function () {
-
-                    $("#robly_embedded_subscribe").click(function (e) {
-                        e.preventDefault();
-
-                        var email = $("#DATA0").val();
-                        if (!is_valid_email_address(email)) {
-                            alert("Please enter a valid email address.");
-                            return false;
-                        }
-                            if (!$("#DATA0").val()) {
-                                alert("Please fill in all required fields!");
-                                return false
-                            }
-
-                        var s = document.getElementsByClassName('sublist_fb_option');
-                        if (s.length > 0) {
-                            var selected = false;
-                            for (var i = 0; i < s.length; i++) {
-                                if (s[i].checked) {
-                                    selected = true;
-                                }
-                            }
-                            if (!selected) {
-                                alert("Please select a mailing list.");
-                                return false;
-                            }
-                        }
-
-
-                        var f = $("#robly_embedded_subscribe_form");
-                        f.submit();
-
-                        return false;
-                    });
-
-                });
-
-                function is_valid_email_address(emailAddress) {
-                    var pattern = new RegExp(/^((([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+(\.([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+)*)|((\x22)((((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(([\x01-\x08\x0b\x0c\x0e-\x1f\x7f]|\x21|[\x23-\x5b]|[\x5d-\x7e]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(\\([\x01-\x09\x0b\x0c\x0d-\x7f]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))))*(((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(\x22)))@((([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.)+(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.?$/i);
-                    return pattern.test(emailAddress);
-                }
-
-              </script>
               <!-- End Robly Signup Form -->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-              
+ 
               <!-- <form action="https://list.robly.com/subscribe/post" method="post" id="robly_embedded_subscribe_form" name="robly_embedded_subscribe_form" class="validate" novalidate="">
                 <input type="hidden" name="a" value="d385f0c660467c5dce0c5035cfc9d67d" />
                 <input type="hidden" name="sub_lists[]" value="293912" />
