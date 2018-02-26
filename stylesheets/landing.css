@@ -1,11 +1,5 @@
-@media (min-width: 576px) {
-  #product p {
-    font-size: 1.25em; } }
-
-.g-recaptcha {
-  float: right;
-  margin-top: 15px;
-  width: 302px; }
+.form-text {
+  font-size: 1.5em; }
 
 .footer {
   background-color: #255182; }
